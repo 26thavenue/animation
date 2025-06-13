@@ -39,14 +39,14 @@ export const BottomNav = () => {
   }, []);
 
   return (
-    <div className="fixed bottom-10 mx-auto flex justify-center h-[70px] w-[400px] bg-gray-800 rounded-md">
+    <div className="fixed bottom-10 mx-auto flex justify-center h-[70px] w-[400px] bg-gray-700 rounded-md">
       <div
         className="h-full w-fit flex flex-col cursor-pointer gap-1 items-center justify-center"
         onMouseEnter={startFilling}
         onMouseLeave={resetFilling}
       >
-        <h2 className="text-white text-xl">Tomiwa</h2>
-        <div className="relative h-[2px] w-20 bg-gray-400 overflow-hidden">
+        <h4 className="text-white text-xl">Display Text</h4>
+        <div className="relative h-[2px] w-24 bg-gray-400 overflow-hidden">
           <div
             className="absolute left-0 top-0 h-full bg-white transition-all duration-1000 ease-in"
             style={{ width: `${progress}%` }}
