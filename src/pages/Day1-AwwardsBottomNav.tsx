@@ -18,7 +18,7 @@ export const BottomNav = () => {
     if (intervalRef.current == null) {
       intervalRef.current = window.setInterval(() => {
         setProgress(prev => (prev < 100 ? prev + 1 : 100));
-      }, 10);
+      }, 10); 
     }
   };
 
