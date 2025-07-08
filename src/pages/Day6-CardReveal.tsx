@@ -1,1 +1,0 @@
-// https://www.awwwards.com/inspiration/p10-cards-pesquera-diez-p10
