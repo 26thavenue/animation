@@ -28,6 +28,12 @@ const Home = () => {
                     <h3 className="max-w-xs">Glow Button</h3>
                 </div>
             </Link>
+
+            <Link to="/day4">
+                <div className="w-[300px] h-[200px] bg-amber-100 flex items-center justify-center px-3">
+                    <h3 className="max-w-xs">Parallax</h3>
+                </div>
+            </Link>
             
         </div>
     </div>
