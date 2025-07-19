@@ -11,19 +11,19 @@ const Home = () => {
         </button>
 
         <div className="grid grid-cols-4">
-            <Link to="/Day1">
+            <Link to="/day1">
                 <div className="w-[300px] h-[200px] bg-amber-100 flex items-center justify-center px-3">
                     <h3 className="max-w-xs">Awwards Floating Downward Navbar</h3>
                 </div>
             </Link>
             
-            <Link to="/Day2">
+            <Link to="/day2">
                 <div className="w-[300px] h-[200px] bg-amber-100 flex items-center justify-center px-3">
                     <h3 className="max-w-xs">Mouse Trail</h3>
                 </div>
             </Link>
 
-            <Link to="/Day3">
+            <Link to="/day3">
                 <div className="w-[300px] h-[200px] bg-amber-100 flex items-center justify-center px-3">
                     <h3 className="max-w-xs">Glow Button</h3>
                 </div>
